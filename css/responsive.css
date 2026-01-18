@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .nav nav {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+}
